@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/helper-builder-react-jsx-experimental": "^7.12.11",
+    "@babel/helper-regex": "^7.10.5",
     "axios": "^0.19.2",
     "filesize": "^6.1.0",
     "history": "^4.10.1",
@@ -16,7 +18,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "dev": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
